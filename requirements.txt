@@ -10,11 +10,11 @@ gradio
 grandalf
 huggingface_hub
 jq
-langchain==0.2.5
-langchain-core==0.1.35
-langchain_experimental==0.0.61
-langchainhub==0.1.14
-langsmith==0.1.10
+langchain
+langchain-core
+langchain_experimental
+langchainhub
+langsmith
 lark
 lxml
 pandas

@@ -45,7 +45,7 @@ Optional: Create a virtual environment:
 **conda:**
 
 ```sh
-conda create -n elqm python=3.10 [ipykernel]
+conda create -n elqm python=3.11 [ipykernel]
 conda activate elqm
 ```
 

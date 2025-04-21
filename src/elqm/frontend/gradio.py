@@ -25,7 +25,6 @@ def launch_gradio_frontend(elqm_pipeline: ELQMPipeline, share: bool = False) -> 
     with gr.Blocks(css=CSS) as frontend:
         gr.ChatInterface(
             fn=elqm_pipeline.answer,
-            clear_btn=clear_btn,
             title="ELQM: Energy Law Query Master")
 
         clear_btn.click(fn=elqm_pipeline.clear_chat_history)

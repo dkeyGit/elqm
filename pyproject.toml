@@ -7,7 +7,7 @@ authors = [
     {name = "Daniel Knorr"}
     ]
 readme = "README.md"
-requires-python = ">=3.10, <3.11"
+requires-python = ">=3.10, <3.12"
 dynamic = ["dependencies"]
 version = "1.0.0"
 urls = { Github = "https://github.com/dkeyGit/elqm"}

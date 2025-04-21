@@ -60,7 +60,7 @@ class RetrieverFactory:
 
         if kwargs["cache"] and os.path.exists(index_file):
             print("Loading FAISS index from cache")
-            vector_store = FAISS.load_local(index_dir, kwargs["embeddings_object"])
+            vector_store = FAISS.load_local(index_dir, kwargs["embeddings_object"],allow_dangerous_deserialization=True)
         else:
             print("Creating FAISS index")
             batch_size = min(100, len(kwargs["documents"]))
